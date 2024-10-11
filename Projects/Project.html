@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" >
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Project.css">
+    <script src="Project.js" defer></script>
+</head>
+<body>
+    <section>
+        <div class="header">
+            <div class="left-header">
+                <img class="img" src="../Assets/my_img.webp" alt="my_image">
+                <h1>Shrisha Bayari</h1>
+                <p>Full Stack Developer</p><br>
+                <p>Email: bayarishrisha@gmail.com</p>
+                <p>Phone: 7348941247</p>
+                <p>Location: Brahmavar, Udupi</p>
+            </div>
+            <div class="right-header">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="/Home/home.html">Home</a></li>
+                        <li><a href="/Skills/ProgrammingLanguages.html">Skills</a></li>
+                        <li><a href="/Projects/Project.html">Projects</a></li>
+                        <li><a href="/Contact/Contact.html">Contact</a></li>
+                        <div id="dark-mode-toggle" class="dark-mode-toggle">
+                            <button class="button"><i class="fas fa-moon"></i></button>
+                        </div>
+                    </ul>
+                </nav>
+                <div>
+                    <h2>Projects</h2>
+                    <p>Take a look at my projects</p>
+                    <section id="projects">
+                        <!-- Project 1 -->
+                        <div class="project-thumbnail">
+                            <div class="thumbnail-content">
+                                <img src="../Assets/quiz.png" alt="Quiz Application">
+                                <h3>Quiz Application</h3>
+                                <p>Interactive quiz application with multiple topics.</p>
+                                <a href="#" class="btn know-more" data-modal-target="#projectModal1">Know More</a>
+                            </div>
+                        </div>
+                        <!-- Project 2 -->
+                        <div class="project-thumbnail">
+                            <div class="thumbnail-content">
+                                <img src="../Assets/netflix.webp" alt="Netflix Homepage">
+                                <h3>Netflix Homepage</h3>
+                                <p>Clone of the Netflix homepage.</p>
+                                <a href="#" class="btn know-more" data-modal-target="#projectModal2">Know More</a>
+                            </div>
+                        </div>
+                        <!-- Project 3 -->
+                        <div class="project-thumbnail">
+                            <div class="thumbnail-content">
+                                <img src="../Assets/p3.png" alt="Landing Page">
+                                <h3>My Landing Page</h3>
+                                <p>Custom-designed personal landing page.</p>
+                                <a href="#" class="btn know-more" data-modal-target="#projectModal3">Know More</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <!-- Modal 1 -->
+    <div id="projectModal1" class="Modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Quiz Application</h2>
+            <hr>
+            <div class="modal-body">
+                <div class="modal-row">
+                    <div class="column description">
+                        <p><strong>Short Project Overview:</strong> This project is a quiz application that allows users to select topics and answer questions.</p>
+                        <h3>Project Details</h3>
+                        <ul>
+                            <li>Users can select topics of their choice.</li>
+                            <li>Questions and answers are displayed dynamically.</li>
+                            <li>Accepts user input for answers.</li>
+                            <li>Displays score based on correctness.</li>
+                        </ul>
+                    </div>
+                    <div class="column image-carousel">
+                        <!-- Carousel Container -->
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="../Assets/quiz.png" alt="Quiz Image 1">
+                                <img src="../Assets/q1.png" alt="Quiz Image 2">
+                                <img src="../Assets/q2.png" alt="Quiz Image 3">
+                                <img src="../Assets/q3.png" alt="Quiz Image 4">
+                                <img src="../Assets/q4.png" alt="Quiz Image 5">
+                                <img src="../Assets/q5.png" alt="Quiz Image 6">
+                            </div>
+                            <!-- Carousel Controls -->
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="projectModal2" class="Modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Netflix Homepage Clone</h2>
+            <hr>
+            <div class="modal-body">
+                <div class="modal-row">
+                    <div class="column description">
+                        <p><strong>Short Project Overview:</strong> This project is a clone of the Netflix homepage.</p>
+                        <h3>Project Details</h3>
+                        <ul>
+                            <li>Replicates the design of Netflix's homepage.</li>
+                            <li>Shows different categories for users.</li>
+                            <li>Includes sign-in and login functionalities.</li>
+                        </ul>
+                    </div>
+                    <div class="image-carousel">
+                        <!-- Carousel Container -->
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="../Assets/netflix.webp" alt="Netflix Image 1">
+                                <img src="../Assets/n1.png" alt="Netflix Image 2">
+                                <img src="../Assets/n2.png" alt="Netflix Image 3">
+                                <img src="../Assets/n3.png" alt="Netflix Image 4">
+                                <img src="../Assets/n4.png" alt="Netflix Image 5">
+                                <img src="../Assets/n5.png" alt="Netflix Image 6">
+                            </div>
+                            <!-- Carousel Controls -->
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div id="projectModal3" class="Modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Landing Page</h2>
+            <hr>
+            <div class="modal-body">
+                <div class="modal-row">
+                    <div class="column description">
+                        <p><strong>Short Project Overview:</strong> This is my personal landing page.</p>
+                        <h3>Project Details</h3>
+                        <ul>
+                            <li>Home page of my personal website.</li>
+                            <li>Showcases different features and sections.</li>
+                        </ul>
+                    </div>
+                    <div class="column image-carousel">
+                        <!-- Carousel Container -->
+                        <div class="carousel-container">
+                            <div class="carousel-slide">
+                                <img src="../Assets/p3.png" alt="Landing Page Image 1">
+                                <img src="../Assets/l1.png" alt="Landing Page Image 2">
+                                <img src="../Assets/l2.png" alt="Landing Page Image 3">
+                                <img src="../Assets/l3.png" alt="Landing Page Image 4">
+                                <img src="../Assets/l4.png" alt="Landing Page Image 5">
+                            </div>
+                            <!-- Carousel Controls -->
+                            <a class="prev">&#10094;</a>
+                            <a class="next">&#10095;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="Project.js"></script>
+</body>
+</html>
