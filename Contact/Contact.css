@@ -1,0 +1,209 @@
+section{
+    margin-left: 0px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1;
+}
+a{
+    color: rgb(45, 45, 180);
+    text-decoration: none;
+}
+li{
+    background:blanchedalmond;
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 10px 15px;
+    margin: 5px 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+header{
+    background: linear-gradient(to right, rgb(247, 4, 194),orange);
+    color: white;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.left-header{
+    padding: 0px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    margin-bottom: 5px;
+    padding: 20px;
+    background-color: #d4d0d0;
+}
+.header .left-header p{
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.img{
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 10%;
+    box-shadow: 0, 500PX, 0PX, rgba(0, 0, 0, 1);
+    object-fit: cover;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap if needed, but we'll manage this with media queries */
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0px;
+    margin-left:10px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    padding-right: 25px;
+    background-color: #d4d0d0;
+}
+.navbar-item{
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 100px;
+}
+ li a{
+    padding-left: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: rgb(33, 2, 212);
+    color: black;
+}
+.dark-mode-toggle .button{
+    margin-right: 40px;
+    border-radius: 10px;
+    width: 100px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 5px;
+    font-size: 20px;
+    background-color: rgb(250, 237, 214);
+}
+.dark-mode{
+    background-color: #333;
+    color: white;
+}
+.dark-mode button{
+    background-color: rgb(250, 236, 210);
+    color: black;
+    font-size: 20px;
+}
+.dark-mode p{
+    color: white;
+}
+.dark-mode label{
+    color: black;
+}
+.dark-mode li{
+    color: black;
+    background-color: blanchedalmond;
+}
+.dark-mode table {
+    background-color: #333;
+}
+.dark-mode .navbar {
+    background-color: #333;
+}
+.dark-mode .contact-conatainer {
+    background-color: #333;
+}
+.dark-mode .left-header {
+    background-color: #333;
+}
+.contact-conatainer{
+    margin-left: 0px;
+    margin-right: 300px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #d4d0d0;
+}
+.icon-link{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0, 10px;
+    color: #fff;
+    font-size: 24px;
+    transition: transform 0.2s ease;
+}
+.email-icon{
+    background-color: rgb(218, 4, 4);
+}
+.linkedin-icon{
+    background-color: rgb(19, 19, 233);
+}
+.icon-link:hover{
+    transform: scale(1.1);
+    color: #fff;
+}
+form{
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+    padding: 30px;
+    box-shadow: 0, 5px 15px black;
+    background:rgb(252, 202, 202);  
+    margin-left: 130px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+form h1{
+    margin: 20px;
+    margin-top: -10px;
+    font-size: 25px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    width: calc(100% - 20PX);
+    padding: 10PX;
+    margin-bottom: 20PX;
+    border: 1PX solid;
+    border-radius: 5px;
+}
+form button{
+    height: 50px;
+    width: calc(50% - 90PX);
+    margin-left: auto;
+    margin-top: 10px;
+
+    background-image: linear-gradient(to right, rgb(247, 4, 194), orange);
+    color: white; 
+    padding: 10px - 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-image 0.3s ease;
+}
+form button:hover{
+    background-image: linear-gradient(to right, orange, rgb(247, 4, 194));
+    color: white;
+}
